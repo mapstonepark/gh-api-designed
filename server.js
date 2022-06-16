@@ -45,6 +45,6 @@ app.get('/api/:name', (req, res)=>{
     res.json(ghCast)
 })
 
-app.listen(PORT, (req, res)=>{
+app.listen(process.env.PORT || PORT, (req, res)=>{
     console.log('This server is running really stupendiously well my friend!')
 })
