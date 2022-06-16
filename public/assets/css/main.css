@@ -113,6 +113,11 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	.documentation-example{
+		font-size: 1.2em;
+		color: maroon;
+	}
+
 /* Type */
 
 	body, input, select, textarea {

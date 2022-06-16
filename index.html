@@ -33,13 +33,13 @@
 					</header>
 
 				<!-- Menu -->
-					<nav id="menu">
+					<!-- <nav id="menu">
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="documentation.html">Documentation</a></li>
 						</ul>
-					</nav>
+					</nav> -->
 
 				<!-- Main -->
 					<div id="main">
@@ -48,18 +48,23 @@
 							<span class="image main"><img src="images/ghlogo.jpg" alt="general hospital logo" /></span>
 							<p>This API will give users the following information about a character:</p>
 							<ul>
-								<li>actor or actress </li>
+								<li>Actor or Actress </li>
 								<li>Current significant other or budding relationship
 								</li>
-								<li>current storyline </li>
+								<li>Current storyline </li>
 							</ul>
-							<p>All objects returned will be in the following format so you can use dot notation to retrieve specific information:</p>
+							<p>All objects returned will be in the following format so you can use dot notation to retrieve specific information.</p>
+							<p>The query parameter accepted is the name of any current contract character on General Hospital. An example of pulling Curtis’s information would look like this: </p>
+							<p> <span class="documentation-example">https://generalhospitalapi.herokuapp.com/api/<b>curtis ashford</b> </span></p>
+							<p>This request would yield the following results.</p>
 							<p>"curtis ashford": <br> {
 								"Portrayed by": "Donnell Turner", <br>
 								"Significant Other": "Portia Robinson", <br>
 								"Current storyline": "Curtis's main story right now is reconnecting with his father Marshall Ashford. Curtis grew up thinking his father was dead his entire childhood, only to find a mysterious man approach him claiming to be his father soon after he opens a club called 'The Savoy'. Initially angered and distrustful of Marshall, Curtis is gaslighted into believing that asking his father to explain where he has been his whole life is rude and none of his business. Six months after his father is introduced, we finally learn that Marshall was diagnosed with 'mental issues' and that is why he left his family thinking it would be better for his children to believe he were dead."}
 							</p>
-							<p>The query parameters allow for you to pull up any current contract character on General Hospital. An example of pulling Curtis’s information would look like this:</p>
+							<p>Currently there are entries for Harrison Chase, Curtis Ashford, Drew Cain, Portria Robinson and Nikolas Cassadine </p>
+						
+							
 						</div>
 					</div>
 
