@@ -7,12 +7,14 @@ app.use(express.static('public'))
 const ghCast = {
     "curtis ashford": {
         "Portrayed by": "Donnell Turner",
-        "Significant Other": "Portia Robinson",
-        "Current storyline": "Curtis's main story right now is reconnecting with his father Marshall Ashford. Curtis grew up thinking his father was dead his entire childhood, only to find a mysterious man approach him claiming to be his father soon after he opens a club called 'The Savoy'. Initially angered and distrustful of Marshall, Curtis is gaslighted into believing that asking his father to explain where he has been his whole life is rude and none of his business. Six months after his father is introduced, we finally learn that Marshall was diagnosed with 'mental issues' and that is why he left his family thinking it would be better for his children to believe he were dead."},
+        "Significant Other": "dating Portia Robinson",
+        "Current storyline": "Curtis's main story right now is reconnecting with his father Marshall Ashford. Curtis grew up thinking his father was dead his entire childhood, only to find a mysterious man approach him claiming to be his father soon after he opens a club called 'The Savoy'. Initially angered and distrustful of Marshall, Curtis is gaslighted into believing that asking his father to explain where he has been his whole life is rude and none of his business. Six months after his father is introduced, we finally learn that Marshall was diagnosed with 'mental issues' and that is why he left his family thinking it would be better for his children to believe he were dead."
+    },
     "portia robinson" :{
         "Portrayed by": "Brook Kerr",
-        "Signficant Other": "Curtis Ashford",
-        'Current storyline': 'Her daughter Trina Robinson is going to court for allegedly filming her best friends have sex and then releasing it to the student body of their college. Portia is also keeping a secret about the paternity of who her daughter\'s father is. It is assumed that Curtis is the father but this has not been told to the audience yet'},
+        "Signficant Other": "dating Curtis Ashford",
+        'Current storyline': 'Her daughter Trina Robinson is going to court for allegedly filming her best friends have sex and then releasing it to the student body of their college. Portia is also keeping a secret about the paternity of who her daughter\'s father is. It is assumed that Curtis is the father but this has not been told to the audience yet'
+    },
     'drew cain' : {
         'Portrayed by': 'Cameron Mathison',
         'Significant Other': 'Currently being chem-tested with every woman on the show. Has a flirtation going on with Carly Corinthos',
@@ -20,7 +22,7 @@ const ghCast = {
     },
     'nikolas cassadine': {
         'Portrayed by': 'Marcus Coloma',
-        'Significant Other': 'Ava Jerome',
+        'Significant Other': 'married to Ava Jerome, sleeping with Esme Prince',
         'Current storyline': 'After discovering that his only son Spencer and his girlfriend Esme terrorized his wife, Nikolas has been working to re-establish a good relationship with Spencer. Not knowing the full story, he chooses to believe that his son\'s girlfriend is being unfairly treated and is her lone defender. Esme is \'threatend\' by Sonny and so Nikolas invistes her and Spencer to stay with him without asking his wife which causes strain in their relationship. The growing distance between Nik and his wife and the belief that she is leaving him drives the Prince into the arms of his son\'s lover Esme and now he is trying to keep that secret while still yearning to sleep with her again.'
     },
     'harrison chase': {
@@ -49,7 +51,7 @@ const ghCast = {
         "Current storyline": "Carly is in every storyline. If she\'s not, just give it some time. Her biggest storyline moment right now is that as Harmony Miller lay dying after kidnapping Carly and fighting with Alexis *please check out Harmony Miller bio*, Harmony told Carly that Willow\'s actual mother is Nina Reeves and she begged Carly to keep Willow safe as Nina loves too strong and would hurt Willow...*again check out Harmony because thats the pot calling the kettle black if you ever saw one*. Carly told Drew this in confidence, and during the trial for visitation between Michael and Willow vs Nina, Carly had a dna test ran to determine if it was true. Having the truth of the claim confirmed, she chose not to tell Willow and to tell Drew that it was just a lie by Harmony because it would just be easier for everyone."
     },
     'michael corinthos': {"Portrayed by": "Chad Duell",
-        "Significant Other": "in a relationship with Willow Tait",
+        "Significant Other": "dating Willow Tait",
         "Current storyline": "Michael\'s most interesting storyline right now is that he has declared war on his father Sonny as he believes Sonny chose Nina over his family. It has just been revealed that Sonny\'s newest hire Dex is actually a plant hired by Michael to supposedly destroy his father\'s illegal business from the inside. We haven\'t got a lot of information on it yet, but the reveal was one of the first signs of how far Michael is willing to go to destroy his father."
     },
     'sonny corinthos': {"Portrayed by": "Maurice Benard",
@@ -70,11 +72,11 @@ const ghCast = {
     'Current storyline': 'Dante serves as a middleground, similar to Drew between Michael and Sonny. He is doing his best to offer good advice, not commit to anyone side and try and foster a peace and coming together between the two. You will see him more with Sonny lately than Michael, as Sonny doesn\'t have too many people in his corner that he can go to for advice and perspective. The other storyline going with Dante is that there is a new guy in town named Cody that Dante knew from summer camp and they apparently got into a lot of trouble together. As far as the extent to what that trouble looked like, we don\'t know yet.'
 },
 'hamilton finn': {'Portrayed by': 'Michael Easton',
-    'Significant Other': 'in a relationship with Elizabeth Webber-Baldwin',
+    'Significant Other': 'dating Elizabeth Webber-Baldwin',
     'Current storyline': 'Finn is in a new relationship with Elizabeth and is doing his best to support her and her family. There was a period where strange things kept happening around Elizabeth (her dead husband\'s art studio was set on fire, her ring showed up at work, a dress was ruined, strange dreams) but this was all revealed to actually be Elizabeth as a possible side effect of her sleeping medication. ...Elizabeth is currently staying in Shady Brooks under observation and is away from her family and Finn so she can get better. Finn\'s storyline is really, \'Hey what\'s going on with Elizabeth and how can I support her? \'. '
 },
 'austin gatlin-holt': {'Portrayed by': 'Roger Howarth',
-    'Significant Other': 'in a relationship with Maxie Jones',
+    'Significant Other': 'dating Maxie Jones',
     'Current storyline': 'Austin hasn\'t had a storyline in months other than \'I\'m dating Maxie\'. His first storlying was about trying to be recognized the Quartermaines as his father is Jimmy Lee Holt, but that has been dropped. Seeds have been dropped about a potential storyline as someone was following Maxie and Austin when they went camping and Austin told this individual not to contact him like this after Maxie left. We haven\'t been told who this person is yet or why they are following Austin'
 },
 'sasha gilmore': {'Portrayed by': 'Sofia Mattsson',
@@ -82,7 +84,7 @@ const ghCast = {
     'Current storyline': 'After the death of her child Liam, Sasha got back on pills to cope. During one manic trip, she decided to marry Brando and though she does love him, it would probably be a lie to say that her being back on drugs didn\'t have an influence on her decision. While out with her work mates, she is photographed taking pills and after rushing out with her mother-in-law, she accidently hits Harmony Miller on the road. The guilt of killing Harmony Miller, the mother of one of her best friends Willow, Sasha realizes she has a problem and decideds to give up pills just as her mother-in-law Gladys puts two and two together. To keep Gladys from telling her son Brando because Gladys thinks Brando should know so he can support her and be there for her, Sasha instead agrees to let Gladys move in with them to appease Gladys.'
 },
 'jossyln jacks': {'Portrayed by': 'Eden McCoy',
-    'Significant Other': 'in a relationship with Cameron Webber',
+    'Significant Other': 'dating Cameron Webber',
     'Current storyline': 'Josslyn\'s current storyline is working with Trina to exonerate her best friend and find proof that Esme filmed her and Cameron and distributed it to the whole school. Her biggest personal problem is that she feels distance between her and her boyfriend Cameron as she doesn\'t know that Cam is working with Spencer to catch Esme. Cameron has not told Josslyn any of this from fear that Josslyn wouldn\'t be able to help herself and ruin the entire plan.'
 },
 'ava jerome': {'Portrayed by': 'Maura West',
@@ -114,7 +116,7 @@ const ghCast = {
     'Significant Other': 'married to Mac Scorpio',
     'Current storyline': 'Felicia is working with Laura to figure out why Victor is in town. Felicia is pushing Anna and Valentin to get together. Felicia has been hinting at wanting to have a child with Mac...or maybe she doesn\'t and feels like they missed their shot. Sure would be crazy if they actually already had a kid together and the writers are working on how they would make that make sense you know? Felicia is antagonizing Ryan cause he caused so much pain her life. That\'s what Felicia is doing.'},
 'willow tait': {'Portrayed by': 'Katelyn MacMullen',
-    'Significant Other': 'in a relationship with Michael Corinthos',
+    'Significant Other': 'dating Michael Corinthos',
     'Current storyline': 'Has no idea that Nina Reeves is actually her mother. Willow is currently raising her fraternal twin sister Nelle\'s child Wiley, completely unaware that they actually share dna. Willow is stunned to find out that Harmony Miller is not her mother and that Harmony was involved in so many terrible things. After seeing how far Nina would go to besmirch Michael\'s name and ruin his family, Willow wants nothing to do with Nina and will do anything to keep her away from Wiley.'},
 'elizabeth webber-baldwin': {'Portrayed by': 'Rebecca Herbst',
     'Significant Other': 'dating Hamilon Finn',
