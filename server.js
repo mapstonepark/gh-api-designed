@@ -99,7 +99,7 @@ const ghCast = {
     'Significant Other': 'dating Dante Falconeri',
     'Current storyline': 'Sam is dating Dante, is curious about his old friendship with Cody and on the fringes of investigation. I think Sam is on the backburner so the writers can use her whereever they think she works best. She was involved in the planning stages of figuring out what\'s going on with Victor but there\'s been no forward movement on that in sometime.'
 },
-'harmony miller': {'Portrayed by': 'Inga Cardranel',
+'harmony miller': {'Portrayed by': 'Inga Cadranel',
     'Significant Other': 'had a budding relationship with Alelxis Davis',
     'Current storyline': 'Harmony Miller is dead. Before she died, these are the confirmed facts. Raised Willow Tait and we all thought she was her mother, but the writers decided that Willow is actually the daughter of Nina Reeves who it turns out had twins while she was in a coma. Harmony got one of those twins while the other Nelle Benson grew up to marry Michael Quartermaine and attempt to ruin his entire life. Harmony joined a cult that resulted in her husband being murdered and Harmony offering her daughter Willow up to be raped by the cult leader Shiloh. Harmony later would sneak into Alexis Davis\'s home and murder her boyfriend Neil Byrne and then two years later she would murder his brother when he found out. Harmony then would kidnap Carly with the intention of killing her for finding out that Willow is not her actual daughter. Harmony Miller was a trip.'
 },
