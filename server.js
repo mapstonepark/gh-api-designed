@@ -49,7 +49,7 @@ const ghCast = {
         "Current storyline": "Carly is in every storyline. If she\'s not, just give it some time. Her biggest storyline moment right now is that as Harmony Miller lay dying after kidnapping Carly and fighting with Alexis *please check out Harmony Miller bio*, Harmony told Carly that Willow\'s actual mother is Nina Reeves and she begged Carly to keep Willow safe as Nina loves too strong and would hurt Willow...*again check out Harmony because thats the pot calling the kettle black if you ever saw one*. Carly told Drew this in confidence, and during the trial for visitation between Michael and Willow vs Nina, Carly had a dna test ran to determine if it was true. Having the truth of the claim confirmed, she chose not to tell Willow and to tell Drew that it was just a lie by Harmony because it would just be easier for everyone."
     },
     'michael corinthos': {"Portrayed by": "Chad Duell",
-        "Significant Other": "currently married to Willow Tait",
+        "Significant Other": "in a relationship with Willow Tait",
         "Current storyline": "Michael\'s most interesting storyline right now is that he has declared war on his father Sonny as he believes Sonny chose Nina over his family. It has just been revealed that Sonny\'s newest hire Dex is actually a plant hired by Michael to supposedly destroy his father\'s illegal business from the inside. We haven\'t got a lot of information on it yet, but the reveal was one of the first signs of how far Michael is willing to go to destroy his father."
     },
     'sonny corinthos': {"Portrayed by": "Maurice Benard",
@@ -101,6 +101,28 @@ const ghCast = {
     'Significant Other': 'had a budding relationship with Alelxis Davis',
     'Current storyline': 'Harmony Miller is dead. Before she died, these are the confirmed facts. Raised Willow Tait and we all thought she was her mother, but the writers decided that Willow is actually the daughter of Nina Reeves who it turns out had twins while she was in a coma. Harmony got one of those twins while the other Nelle Benson grew up to marry Michael Quartermaine and attempt to ruin his entire life. Harmony joined a cult that resulted in her husband being murdered and Harmony offering her daughter Willow up to be raped by the cult leader Shiloh. Harmony later would sneak into Alexis Davis\'s home and murder her boyfriend Neil Byrne and then two years later she would murder his brother when he found out. Harmony then would kidnap Carly with the intention of killing her for finding out that Willow is not her actual daughter. Harmony Miller was a trip.'
 },
+'esme prince': {'Portrayed by': 'Avery Kristen Pohl',
+    'Significant Other': 'dating Spencer Cassadine, sleeping with Nikolas Cassadine',
+    'Current storyline': 'Esme is the most active villain on the show right now. Esme is in league with Ryan Chamberlain and she calls hims father so we are led to believe they are father and daughter, though question on her true parentage is a cause for debate. Some think that she is Felicia Scorpio\'s daughter and either Mac or Ryan\'s child.  Major storyline: Esme planned a ski trip with Trina, Spencer, Cameron and Josslyn, but her true goal was to spike Trina\'s drink with pills and record Cam and Josslyn\'s first time while her and Spencer were on their way home after initiating a fight as plausible denieability as they would be absent. Esme then uploaded the video to everyone in their school and pinned the whole thing on Trina by dropping the phone that initially had the video into Trina\'s belongings. Other storylines: Due to her \'father\' Ryan\'s obssession with Ava, she was told to seduce Nik to break up their relationship. Esme was successful in seducing Nikolas to sleep with her, but tells Ryan \'I know you don\'t want to hear it, but Ava and Nikolas are truly commited to each other. To really sell this, I\'m going to need to sleep with that man several times just to make sure they actually break up.\'. There may be truth to her statement, but Esme may develop feelings for Nikolas which would go a long way in redeeming his character.'},
+'brook lyn quartermaine': {'Portrayed by': 'Amanda Setton',
+    'Significant Other': 'fliration with Harrison Chase',
+    'Current storyline': 'Brook Lynn\'s old manager Linc is back in town and he is selling her songs that she wrote as they were part of his original contract with her. Brook Lynn is working with Chase to try and find a way to get her songs back, while also doing everything they can to slow down the progression of a relationship between her and Chase. Thats it. Thats there story.'},
+'nina reeves': {'Portrayed by': 'Cynthia Watros',
+    'Significant Other': 'flirtation with Sonny Corinthos',
+    'Current storyline': 'Nina is actually Willow Tait\'s mother but has no idea. Nina just lost a court battle to get visitation rights to visit her daughter Nelle\'s son with Michael. Michael and Willow hate Nina because of what Nina did to Michael\'s family when she knew where Sonny was but instead of telling anyone, she just fell in love with him. Nina is slowly moving to becoming Sonny\'s new girlfriend.'},
+'felicia scorpio': {'Portrayed by': 'Kristina Wagner',
+    'Significant Other': 'married to Mac Scorpio',
+    'Current storyline': 'Felicia is working with Laura to figure out why Victor is in town. Felicia is pushing Anna and Valentin to get together. Felicia has been hinting at wanting to have a child with Mac...or maybe she doesn\'t and feels like they missed their shot. Sure would be crazy if they actually already had a kid together and the writers are working on how they would make that make sense you know? Felicia is antagonizing Ryan cause he caused so much pain her life. That\'s what Felicia is doing.'},
+'willow tait': {'Portrayed by': 'Katelyn MacMullen',
+    'Significant Other': 'in a relationship with Michael Corinthos',
+    'Current storyline': 'Has no idea that Nina Reeves is actually her mother. Willow is currently raising her fraternal twin sister Nelle\'s child Wiley, completely unaware that they actually share dna. Willow is stunned to find out that Harmony Miller is not her mother and that Harmony was involved in so many terrible things. After seeing how far Nina would go to besmirch Michael\'s name and ruin his family, Willow wants nothing to do with Nina and will do anything to keep her away from Wiley.'},
+'elizabeth webber-baldwin': {'Portrayed by': 'Rebecca Herbst',
+    'Significant Other': 'dating Hamilon Finn',
+    'Current storyline': 'Elizabeth thought she was being stalked, then haunted, and now learned that she was terrorizing herself as a side effect of her sleeping medication. To get herself right, Elizabeth has checked herself into Shady Brooks under observation and tells her boys and her boyfriend to be strong for her and she will be back as soon as she is better.'},
+'britt westbourne': {'Portrayed by': 'Kelly Thiebaud',
+    'Significant Other': 'unattached at the moment',
+    'Current storyline': 'Britt has a disease that will end her life early and the only people who know are her mother and her ex-lover Jason Morgan. Britt is struggling with letting go of Jason as he is presumed dead, and also trying to find the passion to keep living knowing she is going to die at a young age. Britt just had a meet-cute with new guy in town Cody as he landed on her and they both went into the pool at an event while she was drunk.'},
+
 
 }
 app.get('/', (req, res)=>{
