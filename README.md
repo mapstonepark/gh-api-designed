@@ -18,6 +18,6 @@ This was the third or fourth instance of making this project work. This iteratio
 
 I learned how to serve static files to a server so that my html page could recognize the css it was trying to link to. I gained a solid understanding of express syntax and how to use app.get, app.listen and app.use.
 
-I've recently come back and built a database builder to more easily add new entries to this tool. I've also redone all of the entries so that they are fetched from a database using MongoDB which is much faster than reading through several lines in the server.js file.
+I've recently came back and built a database builder to more easily add new entries to this tool. I've also redone all of the entries so that they are fetched from a database using MongoDB which is much faster than reading through several lines in the server.js file.
 
 ![gif of website](public/images/gh-api.gif)
