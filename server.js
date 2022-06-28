@@ -5,7 +5,7 @@ const cors = require('cors')
 const MongoClient = require('mongodb').MongoClient
 require('dotenv').config()
 
-
+const connectionString = process.env.CONNECTIONSTRING;
 
 app.use(express.static('public'))
 app.use(cors())
@@ -13,7 +13,7 @@ app.use(express.json())
 
 
 
-MongoClient.connect(process.env.CONNECTIONSTRING)
+MongoClient.connect(connectionString)
    .then(client => {
       console.log('You are now connected to Database')
       const db= client.db('ghCollection')
