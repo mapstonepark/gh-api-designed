@@ -13,30 +13,30 @@ app.use(express.json())
 
 
 
-MongoClient.connect(process.env.connectionString)
-    .then(client => {
-        console.log('You are now connected to Database')
-        const db= client.db('ghCollection')
-        const infoCollection = db.collection('stable')
+//MongoClient.connect(process.env.connectionString)
+ //   .then(client => {
+ //       console.log('You are now connected to Database')
+ //       const db= client.db('ghCollection')
+ //       const infoCollection = db.collection('stable')
     
 app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/index.html')
     
 })
 
-app.get('/api/:name', (req, res)=>{
-    const ghCharacterName = req.params.name.toLowerCase()
+//app.get('/api/:name', (req, res)=>{
+//    const ghCharacterName = req.params.name.toLowerCase()
     // important! .find({query param in mongo:what they need to search for})
-    infoCollection.find({character: ghCharacterName}).toArray()
-    .then(results=> {
-        console.log(results)
-        res.json(results[0])
-    })
-    .catch(error => console.error(error))
-})
-    })
+ //   infoCollection.find({character: ghCharacterName}).toArray()
+ //   .then(results=> {
+ //       console.log(results)
+ //       res.json(results[0])
+ //   })
+  //  .catch(error => console.error(error))
+//})
+  //  })
 
-    .catch(error => console.error(error))
+ //   .catch(error => console.error(error))
 
 app.listen(PORT, (req, res)=>{
     console.log('This server is running really stupendiously well my friend!')
