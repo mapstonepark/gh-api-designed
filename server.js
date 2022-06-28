@@ -39,5 +39,5 @@ app.get('/api/:name', (req, res)=>{
     .catch(error => console.error(error))
 
 app.listen(PORT, (req, res)=>{
-    console.log('This server is running really stupendiously well my friend!')
+    console.log('The General Hospital Server is running now.')
 })
