@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT =  8000
+const PORT = process.env.PORT || 8000
 const cors = require('cors')
 const MongoClient = require('mongodb').MongoClient
 require('dotenv').config()
@@ -38,6 +38,6 @@ app.get('/api/:name', (req, res)=>{
 
     .catch(error => console.error(error))
 
-app.listen(process.env.PORT || PORT, (req, res)=>{
+app.listen(PORT, (req, res)=>{
     console.log('This server is running really stupendiously well my friend!')
 })
