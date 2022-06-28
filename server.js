@@ -5,6 +5,7 @@ const cors = require('cors')
 const MongoClient = require('mongodb').MongoClient
 require('dotenv').config()
 
+const connectionString = 'mongodb+srv://mapstone:xK8vMqTMiCmYwIuZ@cluster0.n5max.mongodb.net/?retryWrites=true&w=majority'
 
 
 app.use(express.static('public'))
