@@ -13,7 +13,7 @@ app.use(express.json())
 
 
 
-MongoClient.connect(process.env.connectionString)
+MongoClient.connect(process.env.CONNECTIONSTRING)
    .then(client => {
       console.log('You are now connected to Database')
       const db= client.db('ghCollection')
